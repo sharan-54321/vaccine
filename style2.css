@@ -1,0 +1,13 @@
+#d,
+#dp,
+#search_button {
+  display: none;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: "";
+}
+/*# sourceMappingURL=style2.css.map */
