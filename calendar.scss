@@ -1,15 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 .ui-datepicker-calendar td,
 .ui-datepicker-calendar th {
   padding: 5px;
   padding-left: 3px;
   padding-right: 3px;
 }
-
 .ui-datepicker-calendar {
   padding: 7px;
 }
-
 #datepicker {
   display: block;
   caret-color: transparent;
@@ -18,61 +17,49 @@
 
 .ui-state-default {
   color: black;
-  -webkit-text-decoration-line: none;
-          text-decoration-line: none;
+  text-decoration-line: none;
   padding: 5px;
 }
-
 #ui-datepicker-div {
   background-color: #d4d4d4;
   font-family: "Poppins", sans-serif;
   border-radius: 20px;
 }
-
 /* .ui-datepicker-week-end {
          opacity: 0.8; 
       } */
+
 .ui-widget-header {
   background-color: #eeeeee;
   border-radius: 11px 11px 11px 11px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   direction: horizontal;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  align-content: center;
+  justify-content: space-around;
   padding: 7px;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.623);
   /* text-transform: uppercase; */
   letter-spacing: 0.2px;
 }
-
 .ui-datepicker-today {
   background-color: white;
   border-radius: 7px;
 }
-
 .ui-datepicker-title {
   /* background-color: aqua; */
   padding-left: 3px;
   padding-right: 3px;
   border-radius: 4px;
 }
-
 .ui-datepicker-next {
   margin-right: 0;
-  -webkit-box-ordinal-group: 2;
-      -ms-flex-order: 1;
-          order: 1;
+  order: 1;
   color: transparent;
   background-image: url("https://uploads-ssl.webflow.com/6181638c04f8b017504fb98f/61837b585c293959c9095082_arrow_forward_ios_24px.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
-
 .ui-datepicker-prev {
   color: transparent;
   background-image: url("https://uploads-ssl.webflow.com/6181638c04f8b017504fb98f/61837cbcdb060a1c08dbbb53_arrow_forward_ios_24px.svg");
@@ -83,17 +70,11 @@
 /* text not selectable */
 .ui-datepicker-prev,
 .ui-datepicker-next {
-  -webkit-touch-callout: none;
-  /* iOS Safari */
-  -webkit-user-select: none;
-  /* Safari */
-  /* Konqueror HTML */
-  -moz-user-select: none;
-  /* Old versions of Firefox */
-  -ms-user-select: none;
-  /* Internet Explorer/Edge */
-  user-select: none;
-  /* Non-prefixed version, currently
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome, Edge, Opera and Firefox */
 }
-/*# sourceMappingURL=calendar.css.map */
