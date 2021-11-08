@@ -92,7 +92,10 @@ document.addEventListener("DOMContentLoaded", function () {
         for (var i = 0; i < sessions.length; i++) {
           let newCard = document.createElement("div");
           var row = `
-                <div class="vaccine-card"  data-aos="slide-up" data-aos-duration="00" data-aos-once="true" data-aos-easing="ease-in-out">
+                <div class="vaccine-card"  data-aos="slide-up" data-aos-offset="10"
+                data-aos-delay="30"
+                data-aos-duration="1000"
+                data-aos-once="true" data-aos-easing="ease-in-out">
                 <div class="hospital-details">
                   <h6 class="heading-3">Hospital/ center Name</h6>
                   <div class="hospital-address">
