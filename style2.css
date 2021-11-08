@@ -10,4 +10,8 @@ select {
   text-indent: 1px;
   text-overflow: "";
 }
+
+.w-webflow-badge {
+  visibility: hidden;
+}
 /*# sourceMappingURL=style2.css.map */
