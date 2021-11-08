@@ -152,12 +152,13 @@ document.addEventListener("DOMContentLoaded", function () {
           newCard.innerHTML = row;
           document.querySelector("#cards-parking").appendChild(newCard);
         }
-        let newCard = document.createElement("div");
+        let last = document.createElement("h2");
+        last.classList.add("here-text");
         var thatsit = `
-          <h2 class="here-text"><span class="text-span-3">that's it</span></h2>
+            <span>that's it</span>        
         `;
-        newCard.innerHTML = thatsit;
-        document.querySelector("#cards-parking").appendChild(newCard);
+        last.innerHTML = thatsit;
+        document.querySelector("#cards-parking").appendChild(last);
       });
   };
 });
