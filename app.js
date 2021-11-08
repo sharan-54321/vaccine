@@ -88,12 +88,11 @@ document.addEventListener("DOMContentLoaded", function () {
         nearby_loc.innerHTML = loc;
 
         document.getElementById("cards-parking").appendChild(nearby_loc);
-        // document.querySelector("#cards-parking").appendChild(loc);
 
         for (var i = 0; i < sessions.length; i++) {
           let newCard = document.createElement("div");
           var row = `
-                <div class="vaccine-card"  data-aos="slide-up" data-aos-duration="700" data-aos-once="true" data-aos-easing="ease-in-out">
+                <div class="vaccine-card"  data-aos="slide-up" data-aos-duration="00" data-aos-once="true" data-aos-easing="ease-in-out">
                 <div class="hospital-details">
                   <h6 class="heading-3">Hospital/ center Name</h6>
                   <div class="hospital-address">
@@ -153,7 +152,12 @@ document.addEventListener("DOMContentLoaded", function () {
           newCard.innerHTML = row;
           document.querySelector("#cards-parking").appendChild(newCard);
         }
-        Webflow.ready();
+        let newCard = document.createElement("div");
+        var thatsit = `
+          <h2 class="here-text"><span class="text-span-3">that's it</span></h2>
+        `;
+        newCard.innerHTML = thatsit;
+        document.querySelector("#cards-parking").appendChild(newCard);
       });
   };
 });
