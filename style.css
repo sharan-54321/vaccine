@@ -1,4 +1,4 @@
-/* Generated on: Tue Nov 09 2021 13:11:58 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue Nov 09 2021 13:20:26 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2608,6 +2608,8 @@ h6 {
   .nav-link.nav-button {
     display: inline-block;
     margin-left: 10px;
+    background-color: hsla(0, 0%, 67.3%, 0.68);
+    letter-spacing: 0.4px;
   }
 
   .menu-button {
