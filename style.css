@@ -1,4 +1,4 @@
-/* Generated on: Tue Nov 09 2021 07:27:32 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Tue Nov 09 2021 13:11:58 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1938,7 +1938,9 @@ h6 {
   padding-top: 8px;
   padding-bottom: 6px;
   border-radius: 11px;
-  background-color: hsla(0, 0%, 58.4%, 0.54);
+  background-color: rgba(0, 0, 0, 0.68);
+  color: hsla(0, 0%, 100%, 0.89);
+  letter-spacing: 0.7px;
 }
 
 .image {
@@ -2435,7 +2437,7 @@ h6 {
 }
 
 .heading-2nd.headline-span {
-  margin-top: -12px;
+  margin-top: -6px;
   color: #f07815;
 }
 
@@ -2456,6 +2458,12 @@ h6 {
   border-radius: 18px;
   background-color: hsla(0, 0%, 92.9%, 0.27);
   box-shadow: -1px 4px 9px 0 rgba(0, 0, 0, 0.1);
+  -webkit-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+
+.footer-bg:hover {
+  opacity: 0.89;
 }
 
 .image-8 {
@@ -2561,14 +2569,14 @@ h6 {
         linear,
         left top,
         left bottom,
-        from(rgba(75, 75, 75, 0.02)),
-        to(rgba(75, 75, 75, 0.02))
+        from(rgba(216, 215, 215, 0.13)),
+        to(rgba(216, 215, 215, 0.13))
       ),
       url("https://uploads-ssl.webflow.com/6181638c04f8b017504fb98f/6189ea6ee02dc570c3aa3294_bg-min1.png");
     background-image: linear-gradient(
         180deg,
-        rgba(75, 75, 75, 0.02),
-        rgba(75, 75, 75, 0.02)
+        rgba(216, 215, 215, 0.13),
+        rgba(216, 215, 215, 0.13)
       ),
       url("https://uploads-ssl.webflow.com/6181638c04f8b017504fb98f/6189ea6ee02dc570c3aa3294_bg-min1.png");
     background-position: 0px 0px, 50% 50%;
@@ -2767,6 +2775,7 @@ h6 {
 
   .heading-2nd.headline-span {
     max-width: 340px;
+    font-size: 41px;
   }
 
   .image-8 {
@@ -2776,14 +2785,14 @@ h6 {
 
 @media screen and (max-width: 479px) {
   .hero {
-    min-height: 500px;
+    min-height: 510px;
     margin-top: 7px;
     margin-right: 7px;
     margin-left: 7px;
     padding-right: 13px;
     padding-left: 13px;
     border-radius: 12px;
-    background-image: linear-gradient(101deg, #fff, #fff, transparent 65%),
+    background-image: linear-gradient(101deg, #fff, #fff, transparent 70%),
       url("https://uploads-ssl.webflow.com/6181638c04f8b017504fb98f/6189ea6ee02dc570c3aa3294_bg-min1.png");
     background-position: 0px 0px, 50% 50%;
     background-size: auto, cover;
@@ -2987,7 +2996,8 @@ h6 {
 
   .heading-2nd.headline-span {
     max-width: 243px;
-    box-shadow: 7px 7px 60px 3px hsla(0, 0%, 100%, 0.85);
+    margin-top: -12px;
+    font-size: 29px;
   }
 
   .image-8 {
