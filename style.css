@@ -1,4 +1,4 @@
-/* Generated on: Wed Nov 10 2021 10:03:50 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Nov 10 2021 10:16:13 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2783,9 +2783,9 @@ h6 {
     border-radius: 12px;
     background-image: linear-gradient(
         277deg,
-        hsla(0, 0%, 100%, 0.47),
-        hsla(0, 0%, 100%, 0.82) 47%,
-        hsla(0, 0%, 100%, 0.62)
+        hsla(0, 0%, 100%, 0.3),
+        hsla(0, 0%, 100%, 0.94) 53%,
+        hsla(0, 0%, 100%, 0.77)
       ),
       url("https://uploads-ssl.webflow.com/6181638c04f8b017504fb98f/618b887b1266ac226d48214e_medical1-min.jpg");
     background-position: 0px 0px, 32% 55%;
@@ -2801,6 +2801,10 @@ h6 {
 
   .brand {
     margin-top: 18px;
+  }
+
+  .menu-button {
+    color: #000;
   }
 
   .hero-content {
