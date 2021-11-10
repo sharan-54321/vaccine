@@ -1,4 +1,4 @@
-/* Generated on: Tue Nov 09 2021 13:20:26 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Nov 10 2021 09:19:50 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1885,10 +1885,11 @@ h6 {
   padding-right: 60px;
   padding-bottom: 40px;
   padding-left: 60px;
-  background-image: url("https://uploads-ssl.webflow.com/6181638c04f8b017504fb98f/6189ea6ee02dc570c3aa3294_bg-min1.png");
-  background-position: 100% 50%;
-  background-size: cover;
+  background-image: url("https://uploads-ssl.webflow.com/6181638c04f8b017504fb98f/618b887b1266ac226d48214e_medical1-min.jpg");
+  background-position: 0% 50%;
+  background-size: 160vw;
   background-repeat: no-repeat;
+  background-attachment: scroll;
 }
 
 .container {
@@ -2473,23 +2474,6 @@ h6 {
 @media screen and (max-width: 991px) {
   .hero {
     min-height: 100vh;
-    background-image: -webkit-gradient(
-        linear,
-        left top,
-        right top,
-        from(hsla(0, 0%, 83.3%, 0.4)),
-        color-stop(78%, hsla(0, 0%, 100%, 0.02))
-      ),
-      url("https://uploads-ssl.webflow.com/6181638c04f8b017504fb98f/6189ea6ee02dc570c3aa3294_bg-min1.png");
-    background-image: linear-gradient(
-        90deg,
-        hsla(0, 0%, 83.3%, 0.4),
-        hsla(0, 0%, 100%, 0.02) 78%
-      ),
-      url("https://uploads-ssl.webflow.com/6181638c04f8b017504fb98f/6189ea6ee02dc570c3aa3294_bg-min1.png");
-    background-position: 0px 0px, 50% 50%;
-    background-size: auto, cover;
-    background-repeat: repeat, no-repeat;
   }
 
   .heading {
@@ -2554,6 +2538,8 @@ h6 {
   .heading-2nd.headline-span {
     z-index: 1;
     max-width: 380px;
+    background-color: transparent;
+    box-shadow: none;
   }
 
   .image-8 {
@@ -2569,19 +2555,20 @@ h6 {
         linear,
         left top,
         left bottom,
-        from(rgba(216, 215, 215, 0.13)),
-        to(rgba(216, 215, 215, 0.13))
+        from(hsla(0, 0%, 74.7%, 0.5)),
+        to(hsla(0, 0%, 74.7%, 0.5))
       ),
-      url("https://uploads-ssl.webflow.com/6181638c04f8b017504fb98f/6189ea6ee02dc570c3aa3294_bg-min1.png");
+      url("https://uploads-ssl.webflow.com/6181638c04f8b017504fb98f/618b887b1266ac226d48214e_medical1-min.jpg");
     background-image: linear-gradient(
         180deg,
-        rgba(216, 215, 215, 0.13),
-        rgba(216, 215, 215, 0.13)
+        hsla(0, 0%, 74.7%, 0.5),
+        hsla(0, 0%, 74.7%, 0.5)
       ),
-      url("https://uploads-ssl.webflow.com/6181638c04f8b017504fb98f/6189ea6ee02dc570c3aa3294_bg-min1.png");
-    background-position: 0px 0px, 50% 50%;
-    background-size: auto, cover;
+      url("https://uploads-ssl.webflow.com/6181638c04f8b017504fb98f/618b887b1266ac226d48214e_medical1-min.jpg");
+    background-position: 0px 0px, 20% 50%;
+    background-size: auto, auto 120vh;
     background-repeat: repeat, no-repeat;
+    background-attachment: scroll, scroll;
   }
 
   .brand {
@@ -2794,11 +2781,12 @@ h6 {
     padding-right: 13px;
     padding-left: 13px;
     border-radius: 12px;
-    background-image: linear-gradient(101deg, #fff, #fff, transparent 70%),
-      url("https://uploads-ssl.webflow.com/6181638c04f8b017504fb98f/6189ea6ee02dc570c3aa3294_bg-min1.png");
-    background-position: 0px 0px, 50% 50%;
-    background-size: auto, cover;
+    background-image: linear-gradient(277deg, hsla(0, 0%, 100%, 0.47), #fff),
+      url("https://uploads-ssl.webflow.com/6181638c04f8b017504fb98f/618b887b1266ac226d48214e_medical1-min.jpg");
+    background-position: 0px 0px, 32% 55%;
+    background-size: auto, auto 111vh;
     background-repeat: repeat, no-repeat;
+    background-attachment: scroll, scroll;
     box-shadow: 7px 5px 20px -3px rgba(15, 15, 15, 0.22);
   }
 
