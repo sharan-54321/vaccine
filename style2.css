@@ -12,6 +12,6 @@ select {
 }
 
 .w-webflow-badge {
-  visibility: hidden;
+  display: none;
 }
 /*# sourceMappingURL=style2.css.map */
