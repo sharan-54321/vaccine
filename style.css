@@ -1,4 +1,4 @@
-/* Generated on: Wed Nov 10 2021 10:16:13 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Nov 10 2021 10:59:04 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -453,7 +453,7 @@ label {
 .w-select[readonly],
 fieldset[disabled] .w-input,
 fieldset[disabled] .w-select {
-  cursor: not-allowed;
+  cursor: pointer;
   background-color: #0a0101;
   color: #bbc8d4;
 }
@@ -2194,6 +2194,9 @@ h6 {
   max-width: 80%;
   margin-right: 4px;
   margin-left: 3px;
+  background-image: url("https://uploads-ssl.webflow.com/6181638c04f8b017504fb98f/61879823f50ce560b5887047_gv2.svg");
+  background-position: 0px 0px;
+  background-size: auto;
 }
 
 .hospital-name {
@@ -2464,11 +2467,20 @@ h6 {
 }
 
 .footer-bg:hover {
-  opacity: 0.89;
+  opacity: 0.53;
 }
 
 .image-8 {
   max-width: 17%;
+}
+
+.div-block-6 {
+  width: 130px;
+  height: 20px;
+  background-image: url("https://uploads-ssl.webflow.com/6181638c04f8b017504fb98f/61879823f50ce560b5887047_gv2.svg");
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 991px) {
@@ -2555,14 +2567,14 @@ h6 {
         linear,
         left top,
         left bottom,
-        from(hsla(0, 0%, 74.7%, 0.5)),
-        to(hsla(0, 0%, 74.7%, 0.5))
+        from(rgba(0, 0, 0, 0.61)),
+        to(rgba(0, 0, 0, 0.61))
       ),
       url("https://uploads-ssl.webflow.com/6181638c04f8b017504fb98f/618b887b1266ac226d48214e_medical1-min.jpg");
     background-image: linear-gradient(
         180deg,
-        hsla(0, 0%, 74.7%, 0.5),
-        hsla(0, 0%, 74.7%, 0.5)
+        rgba(0, 0, 0, 0.61),
+        rgba(0, 0, 0, 0.61)
       ),
       url("https://uploads-ssl.webflow.com/6181638c04f8b017504fb98f/618b887b1266ac226d48214e_medical1-min.jpg");
     background-position: 0px 0px, 20% 50%;
@@ -2600,7 +2612,7 @@ h6 {
   }
 
   .menu-button {
-    padding: 11px 11px 12px;
+    padding: 3px 11px 12px;
     font-size: 33px;
   }
 
@@ -2620,6 +2632,7 @@ h6 {
   }
 
   .heading {
+    color: #fff;
     font-size: 42px;
   }
 
@@ -2770,6 +2783,10 @@ h6 {
   .image-8 {
     max-width: 31%;
   }
+
+  .div-block-6 {
+    background-image: url("https://uploads-ssl.webflow.com/6181638c04f8b017504fb98f/618b9fd060afbcddd8e4ae22_%23GetVaccinated%20(1).svg");
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -2781,11 +2798,20 @@ h6 {
     padding-right: 13px;
     padding-left: 13px;
     border-radius: 12px;
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        right top,
+        from(#fff),
+        color-stop(0%, #454545),
+        to(rgba(0, 0, 0, 0.28))
+      ),
+      url("https://uploads-ssl.webflow.com/6181638c04f8b017504fb98f/618b887b1266ac226d48214e_medical1-min.jpg");
     background-image: linear-gradient(
-        277deg,
-        hsla(0, 0%, 100%, 0.3),
-        hsla(0, 0%, 100%, 0.94) 53%,
-        hsla(0, 0%, 100%, 0.77)
+        90deg,
+        #fff,
+        #454545 0%,
+        rgba(0, 0, 0, 0.28)
       ),
       url("https://uploads-ssl.webflow.com/6181638c04f8b017504fb98f/618b887b1266ac226d48214e_medical1-min.jpg");
     background-position: 0px 0px, 32% 55%;
@@ -2804,7 +2830,8 @@ h6 {
   }
 
   .menu-button {
-    color: #000;
+    padding-top: 11px;
+    font-size: 31px;
   }
 
   .hero-content {
@@ -2845,6 +2872,7 @@ h6 {
   }
 
   .heading {
+    color: #fff;
     font-size: 29px;
     line-height: 40px;
   }
@@ -2930,6 +2958,10 @@ h6 {
     margin-left: 0px;
   }
 
+  .select {
+    cursor: pointer;
+  }
+
   .select-block {
     max-width: 250px;
   }
@@ -3003,5 +3035,9 @@ h6 {
 
   .image-8 {
     max-width: 44%;
+  }
+
+  .div-block-6 {
+    width: 125px;
   }
 }
