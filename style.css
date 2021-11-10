@@ -1,4 +1,4 @@
-/* Generated on: Wed Nov 10 2021 10:59:04 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Nov 10 2021 15:18:45 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2015,7 +2015,7 @@ h6 {
   max-width: 132px;
   margin-top: 20px;
   border-radius: 12px;
-  background-color: rgba(240, 120, 21, 0.8);
+  background-color: rgba(240, 120, 21, 0.87);
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
   font-family: Mulish, sans-serif;
@@ -2024,7 +2024,10 @@ h6 {
 }
 
 .button:hover {
-  opacity: 0.69;
+  opacity: 0.9;
+  -webkit-transform: translate(6px, -5px);
+  -ms-transform: translate(6px, -5px);
+  transform: translate(6px, -5px);
 }
 
 .section {
@@ -2460,14 +2463,17 @@ h6 {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 18px;
-  background-color: hsla(0, 0%, 92.9%, 0.27);
+  background-color: hsla(0, 0%, 83.5%, 0.27);
   box-shadow: -1px 4px 9px 0 rgba(0, 0, 0, 0.1);
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
 }
 
 .footer-bg:hover {
-  opacity: 0.53;
+  opacity: 0.72;
+  -webkit-transform: translate(0px, -14px);
+  -ms-transform: translate(0px, -14px);
+  transform: translate(0px, -14px);
 }
 
 .image-8 {
@@ -2801,17 +2807,15 @@ h6 {
     background-image: -webkit-gradient(
         linear,
         left top,
-        right top,
-        from(#fff),
-        color-stop(0%, #454545),
-        to(rgba(0, 0, 0, 0.28))
+        left bottom,
+        from(rgba(0, 0, 0, 0.61)),
+        to(rgba(0, 0, 0, 0.61))
       ),
       url("https://uploads-ssl.webflow.com/6181638c04f8b017504fb98f/618b887b1266ac226d48214e_medical1-min.jpg");
     background-image: linear-gradient(
-        90deg,
-        #fff,
-        #454545 0%,
-        rgba(0, 0, 0, 0.28)
+        180deg,
+        rgba(0, 0, 0, 0.61),
+        rgba(0, 0, 0, 0.61)
       ),
       url("https://uploads-ssl.webflow.com/6181638c04f8b017504fb98f/618b887b1266ac226d48214e_medical1-min.jpg");
     background-position: 0px 0px, 32% 55%;
@@ -3031,6 +3035,10 @@ h6 {
     color: #ff7300;
     font-size: 29px;
     letter-spacing: 0.2px;
+  }
+
+  .footer-bg {
+    background-color: hsla(0, 0%, 83.5%, 0.31);
   }
 
   .image-8 {
