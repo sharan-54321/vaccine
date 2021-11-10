@@ -1,4 +1,4 @@
-/* Generated on: Wed Nov 10 2021 15:18:45 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Nov 10 2021 15:31:50 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2963,6 +2963,7 @@ h6 {
   }
 
   .select {
+    box-shadow: -1px 6px 17px 0 hsla(0, 0%, 42.7%, 0.35);
     cursor: pointer;
   }
 
