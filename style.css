@@ -1,4 +1,4 @@
-/* Generated on: Wed Nov 10 2021 15:36:21 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Nov 10 2021 15:58:56 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -2499,6 +2499,13 @@ h6 {
     z-index: 2;
   }
 
+  .button:hover {
+    opacity: 0.8;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+
   .image-4 {
     right: 36%;
   }
@@ -2807,15 +2814,17 @@ h6 {
     background-image: -webkit-gradient(
         linear,
         left top,
-        left bottom,
-        from(rgba(0, 0, 0, 0.53)),
-        to(rgba(0, 0, 0, 0.53))
+        right top,
+        from(#fff),
+        color-stop(0%, #454545),
+        to(rgba(0, 0, 0, 0.28))
       ),
       url("https://uploads-ssl.webflow.com/6181638c04f8b017504fb98f/618b887b1266ac226d48214e_medical1-min.jpg");
     background-image: linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0.53),
-        rgba(0, 0, 0, 0.53)
+        90deg,
+        #fff,
+        #454545 0%,
+        rgba(0, 0, 0, 0.28)
       ),
       url("https://uploads-ssl.webflow.com/6181638c04f8b017504fb98f/618b887b1266ac226d48214e_medical1-min.jpg");
     background-position: 0px 0px, 32% 55%;
