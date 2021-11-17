@@ -1,4 +1,4 @@
-/* Generated on: Wed Nov 17 2021 16:24:56 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Nov 17 2021 16:30:02 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -354,6 +354,8 @@ h6 {
 }
 
 .heading-2 {
+  min-height: auto;
+  min-width: auto;
   font-size: 21px;
   line-height: 20px;
 }
@@ -1116,7 +1118,6 @@ h6 {
   }
 
   .vaccine-details {
-    min-width: 190px;
     margin-top: 0px;
   }
 
@@ -1129,7 +1130,7 @@ h6 {
   }
 
   .fee-details {
-    min-width: 80px;
+    min-width: 63px;
     margin-right: -5px;
     margin-bottom: auto;
     -webkit-align-self: flex-end;
