@@ -1,4 +1,4 @@
-/* Generated on: Wed Nov 17 2021 16:45:29 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Nov 17 2021 16:55:43 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1155,6 +1155,7 @@ h6 {
   .heading-2 {
     max-width: 100%;
     font-size: 14px;
+    white-space: nowrap;
   }
 
   .heading-4 {
@@ -1275,7 +1276,6 @@ h6 {
     grid-template-columns: 1fr auto;
   }
 }
-
 
 #w-node-_863d7cbb-7f8a-bb20-0515-c1363670ad30-474fb990 {
   -ms-grid-column-align: end;
