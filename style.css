@@ -1,4 +1,4 @@
-/* Generated on: Wed Nov 10 2021 15:58:56 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Nov 17 2021 14:35:03 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1837,6 +1837,13 @@ textarea.w-select {
 /* ==========================================================================
       Start of custom Webflow CSS
       ========================================================================== */
+body {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 20px;
+}
+
 h1 {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -1939,7 +1946,7 @@ h6 {
   padding-top: 8px;
   padding-bottom: 6px;
   border-radius: 11px;
-  background-color: rgba(0, 0, 0, 0.68);
+  background-color: rgba(140, 138, 137, 0.72);
   color: hsla(0, 0%, 100%, 0.89);
   letter-spacing: 0.7px;
 }
@@ -2063,6 +2070,9 @@ h6 {
 }
 
 .vaccine-details {
+  margin-top: -9px;
+  margin-right: auto;
+  margin-left: auto;
   text-align: center;
 }
 
@@ -2174,8 +2184,9 @@ h6 {
 }
 
 .heading-3 {
-  color: #686767;
+  color: #a7a1a1;
   font-weight: 400;
+  letter-spacing: 0.5px;
 }
 
 .rupee {
@@ -2296,7 +2307,7 @@ h6 {
   height: 46px;
   margin-top: 3px;
   font-family: Mulish, sans-serif;
-  color: rgba(62, 62, 62, 0.85);
+  color: hsla(0, 2%, 43.1%, 0.85);
   font-size: 11px;
   line-height: 15px;
   font-weight: 700;
@@ -2489,6 +2500,27 @@ h6 {
   background-repeat: no-repeat;
 }
 
+.vax-beta {
+  display: -ms-grid;
+  display: grid;
+  padding: 18px 33px;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  -ms-grid-columns: 1fr 1.5fr 1fr;
+  grid-template-columns: 1fr 1.5fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.vax-beta.vaccine-card {
+  padding: 20px 45px;
+}
+
+.body-2 {
+  background-color: #f6f6f6;
+}
+
 @media screen and (max-width: 991px) {
   .hero {
     min-height: 100vh;
@@ -2504,6 +2536,10 @@ h6 {
     -webkit-transform: none;
     -ms-transform: none;
     transform: none;
+  }
+
+  .vaccine-details {
+    margin-top: -4px;
   }
 
   .image-4 {
@@ -2569,6 +2605,16 @@ h6 {
 
   .image-8 {
     max-width: 23%;
+  }
+
+  .vax-beta {
+    -ms-grid-columns: 1fr 1.5fr 0.5fr;
+    grid-template-columns: 1fr 1.5fr 0.5fr;
+  }
+
+  .vax-beta.vaccine-card {
+    padding-right: 23px;
+    padding-left: 23px;
   }
 }
 
@@ -2656,7 +2702,7 @@ h6 {
   }
 
   .hospital-details {
-    width: 150px;
+    width: 160px;
   }
 
   .hospital-address {
@@ -2674,12 +2720,24 @@ h6 {
   }
 
   .dose-1 {
+    padding-bottom: 0px;
     color: rgba(70, 70, 70, 0.98);
     font-size: 9px;
   }
 
   .dose-number {
     font-size: 17px;
+  }
+
+  .dose-details {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .fee-typeface {
@@ -2800,6 +2858,18 @@ h6 {
   .div-block-6 {
     background-image: url("https://uploads-ssl.webflow.com/6181638c04f8b017504fb98f/618b9fd060afbcddd8e4ae22_%23GetVaccinated%20(1).svg");
   }
+
+  .vax-beta {
+    padding-right: 14px;
+    padding-left: 14px;
+    -ms-grid-columns: 1fr 2fr 0.75fr;
+    grid-template-columns: 1fr 2fr 0.75fr;
+  }
+
+  .vax-beta.vaccine-card {
+    padding-right: 18px;
+    padding-left: 18px;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -2917,12 +2987,11 @@ h6 {
   }
 
   .hospital-details {
-    position: absolute;
-    left: 9%;
-    top: auto;
-    right: auto;
-    bottom: 3%;
     line-height: 5px;
+  }
+
+  .vaccine-details {
+    margin-top: 0px;
   }
 
   .vaccine-details.flexbox-first {
@@ -2934,8 +3003,8 @@ h6 {
   }
 
   .fee-details {
-    margin-right: 10px;
-    margin-bottom: 2px;
+    margin-right: -5px;
+    margin-bottom: auto;
     -webkit-align-self: flex-end;
     -ms-flex-item-align: end;
     align-self: flex-end;
@@ -2987,6 +3056,7 @@ h6 {
   .district-pincode {
     height: 39px;
     margin-top: 2px;
+    color: hsla(0, 2.4%, 57%, 0.85);
     line-height: 18px;
   }
 
@@ -3056,5 +3126,125 @@ h6 {
 
   .div-block-6 {
     width: 125px;
+  }
+
+  .vax-beta {
+    grid-column-gap: 16px;
+    -ms-grid-columns: 1fr 0.3fr;
+    grid-template-columns: 1fr 0.3fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+  }
+
+  .vax-beta.vaccine-card {
+    padding: 14px 26px 17px;
+    grid-column-gap: 15px;
+    -ms-grid-columns: 1fr 0.55fr;
+    grid-template-columns: 1fr 0.55fr;
+  }
+}
+
+#w-node-_863d7cbb-7f8a-bb20-0515-c1363670ad30-474fb990 {
+  -ms-grid-column-align: end;
+  justify-self: end;
+}
+
+#w-node-_345efeb2-bb27-8121-86c4-e6f802af6b2c-4238d05b {
+  -ms-grid-column-align: start;
+  justify-self: start;
+}
+
+#w-node-_345efeb2-bb27-8121-86c4-e6f802af6b40-4238d05b {
+  -ms-grid-column-align: end;
+  justify-self: end;
+}
+
+@media screen and (max-width: 991px) {
+  #w-node-_863d7cbb-7f8a-bb20-0515-c1363670ad1c-474fb990 {
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+    -ms-grid-column-align: center;
+    justify-self: center;
+  }
+
+  #w-node-_345efeb2-bb27-8121-86c4-e6f802af6b2c-4238d05b {
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+    -ms-grid-column-align: center;
+    justify-self: center;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  #w-node-_863d7cbb-7f8a-bb20-0515-c1363670ad1c-474fb990 {
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+    -ms-grid-column-align: center;
+    justify-self: center;
+    -webkit-box-ordinal-group: -9998;
+    -webkit-order: -9999;
+    -ms-flex-order: -9999;
+    order: -9999;
+  }
+
+  #w-node-_863d7cbb-7f8a-bb20-0515-c1363670ad30-474fb990 {
+    -ms-grid-column-align: end;
+    justify-self: end;
+    -ms-grid-column-span: 1;
+    grid-column-end: 3;
+    -ms-grid-column: 2;
+    grid-column-start: 2;
+    -ms-grid-row-span: 1;
+    grid-row-end: 3;
+    -ms-grid-row: 2;
+    grid-row-start: 2;
+  }
+
+  #w-node-_345efeb2-bb27-8121-86c4-e6f802af6b2c-4238d05b {
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 2;
+    grid-column-start: span 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: span 2;
+    -ms-grid-column-align: center;
+    justify-self: center;
+    -webkit-box-ordinal-group: -9998;
+    -webkit-order: -9999;
+    -ms-flex-order: -9999;
+    order: -9999;
+  }
+
+  #w-node-_345efeb2-bb27-8121-86c4-e6f802af6b40-4238d05b {
+    -ms-grid-column-align: end;
+    justify-self: end;
+    -ms-grid-column-span: 1;
+    grid-column-end: 3;
+    -ms-grid-column: 2;
+    grid-column-start: 2;
+    -ms-grid-row-span: 1;
+    grid-row-end: 3;
+    -ms-grid-row: 2;
+    grid-row-start: 2;
   }
 }
