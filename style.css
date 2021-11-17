@@ -1,4 +1,4 @@
-/* Generated on: Wed Nov 17 2021 16:32:53 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Nov 17 2021 16:35:30 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1150,6 +1150,10 @@ h6 {
   .image-4 {
     right: 19%;
     bottom: 27%;
+  }
+
+  .heading-2 {
+    font-size: 14px;
   }
 
   .heading-4 {
