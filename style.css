@@ -1,4 +1,4 @@
-/* Generated on: Wed Nov 17 2021 16:41:09 GMT+0000 (Coordinated Universal Time) */
+/* Generated on: Wed Nov 17 2021 16:45:29 GMT+0000 (Coordinated Universal Time) */
 /* ==========================================================================
    normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css 
    ========================================================================== */
@@ -1271,8 +1271,8 @@ h6 {
   .vax-beta.vaccine-card {
     padding: 14px 26px 17px;
     grid-column-gap: 15px;
-    -ms-grid-columns: 1fr 0.55fr;
-    grid-template-columns: 1fr 0.55fr;
+    -ms-grid-columns: 1fr auto;
+    grid-template-columns: 1fr auto;
   }
 }
 
