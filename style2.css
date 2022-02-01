@@ -14,4 +14,10 @@ select {
 .w-webflow-badge {
   display: none;
 }
+
+.hospital-address {
+  color: #d88100bf;
+  text-decoration: underline;
+  text-decoration-color: #d88100bf;
+}
 /*# sourceMappingURL=style2.css.map */
