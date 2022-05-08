@@ -20,4 +20,13 @@ select {
   text-decoration: underline;
   text-decoration-color: #d88100;
 }
+.w-input[disabled],
+.w-select[disabled],
+.w-input[readonly],
+.w-select[readonly],
+fieldset[disabled] .w-input,
+fieldset[disabled] .w-select {
+  cursor: pointer;
+  background-color: #0a0101;
+}
 /*# sourceMappingURL=style2.css.map */
